@@ -1,0 +1,1 @@
+{"allow":["src/**","tests/**","README.md"],"deny":[".github/workflows/**","infra/**","migrations/**"],"required_tests":["PYTHONPATH=src python3 -m unittest discover -s tests -v"],"sensitive_paths":["auth/**","config/**",".env*"]}

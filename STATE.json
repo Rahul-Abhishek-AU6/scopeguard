@@ -1,0 +1,40 @@
+{
+  "schema": 1,
+  "name": "20261029-004818-developer-and-engineering-pain-points",
+  "focus": "developer and engineering pain points",
+  "created_at": "2026-10-28T19:18:18+00:00",
+  "updated_at": "2026-10-28T19:18:19+00:00",
+  "active_stage": null,
+  "external_actions": {
+    "github": false,
+    "reddit": false
+  },
+  "stages": {
+    "research": {
+      "status": "done",
+      "started_at": "2026-10-28T19:18:18+00:00",
+      "finished_at": "2026-10-29T00:00:00+05:30",
+      "agent": "handoff-worker"
+    },
+    "plan": {
+      "status": "done",
+      "agent": "handoff-worker"
+    },
+    "build": {
+      "status": "pending"
+    },
+    "test": {
+      "status": "pending"
+    },
+    "publish": {
+      "status": "pending"
+    },
+    "showcase": {
+      "status": "pending"
+    },
+    "launch": {
+      "status": "pending"
+    }
+  },
+  "agent": "codex"
+}
