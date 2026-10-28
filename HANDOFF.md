@@ -15,3 +15,11 @@ Next stage: write the architecture and test matrix in `reports/plan.md`.
 `reports/plan.md` specifies Scopeguard's Python-stdlib/Git-only architecture, strict JSON policy schema, deny-first matching, receipt contract, security boundaries, implementation tasks, and an independent acceptance matrix. Required test commands are display-only; Scopeguard must never execute them.
 
 Next stage: implement the `scopeguard` package, README, fixture-backed smoke receipt, and automated tests.
+
+## Build completed — 2026-10-29
+
+Implemented Scopeguard as a zero-dependency Python CLI. It reads local Git changed paths, applies explicit JSON allow/deny/sensitive policies (deny wins), and writes stable Markdown/JSON receipts without executing declared tests. Added README, MIT license, automated tests, and a README-linked truthful terminal-demo SVG asset.
+
+Evidence: `PYTHONPATH=src python3 -m unittest discover -s tests -v` passes all 3 tests. Local commit: `42144d4`.
+
+Next stage: independently run the acceptance checks and inspect error/edge behavior. Do not publish externally without authorization.

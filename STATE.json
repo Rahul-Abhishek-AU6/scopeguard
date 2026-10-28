@@ -21,7 +21,9 @@
       "agent": "handoff-worker"
     },
     "build": {
-      "status": "pending"
+      "status": "done",
+      "agent": "handoff-worker",
+      "commits": ["42144d4"]
     },
     "test": {
       "status": "pending"
