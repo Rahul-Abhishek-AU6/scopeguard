@@ -26,13 +26,19 @@
       "commits": ["42144d4"]
     },
     "test": {
-      "status": "pending"
+      "status": "done",
+      "agent": "independent-qa",
+      "result": "passed"
     },
     "publish": {
-      "status": "pending"
+      "status": "done",
+      "agent": "release-readiness",
+      "result": "ready-for-remote"
     },
     "showcase": {
-      "status": "pending"
+      "status": "done",
+      "agent": "release-readiness",
+      "result": "reproducible-visual-linked"
     },
     "launch": {
       "status": "pending"

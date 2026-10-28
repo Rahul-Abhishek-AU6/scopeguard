@@ -14,7 +14,7 @@ It writes stable Markdown and JSON receipts. `required_tests` are evidence label
 
 ![Scopeguard terminal demo](assets/scopeguard-demo.svg)
 
-The demo is a reproducible visual rendering of the safe fixture receipt in `reports/smoke/`; it is not AI-generated imagery.
+The demo is a reproducible visual rendering of the checked receipt in [`reports/qa-smoke/scopeguard-receipt.md`](reports/qa-smoke/scopeguard-receipt.md); it is not AI-generated imagery.
 
 ## Test
 

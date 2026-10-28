@@ -1,0 +1,10 @@
+{
+  "changed_paths": [],
+  "mode": "working-tree",
+  "required_tests": [
+    "PYTHONPATH=src python3 -m unittest discover -s tests -v"
+  ],
+  "status": "pass",
+  "violations": [],
+  "warnings": []
+}

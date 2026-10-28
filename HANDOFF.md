@@ -23,3 +23,9 @@ Implemented Scopeguard as a zero-dependency Python CLI. It reads local Git chang
 Evidence: `PYTHONPATH=src python3 -m unittest discover -s tests -v` passes all 3 tests. Local commit: `42144d4`.
 
 Next stage: independently run the acceptance checks and inspect error/edge behavior. Do not publish externally without authorization.
+
+## Independent QA and release readiness — 2026-10-29
+
+Independent verification passed: `PYTHONPATH=src python3 -m unittest discover -s tests -v` completed with 3/3 tests passing. A fresh CLI smoke run produced a passing receipt in `reports/qa-smoke/`; Scopeguard correctly left the declared test command unexecuted.
+
+The README now links both the truthful `assets/scopeguard-demo.svg` visual and its underlying committed receipt. `reports/publish.md` and `reports/showcase.md` confirm release readiness. No remote was created and no post was submitted. Next: create the approved public repository, add `origin`, and push `main`.
